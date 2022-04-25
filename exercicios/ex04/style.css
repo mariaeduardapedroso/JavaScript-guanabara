@@ -1,0 +1,60 @@
+/*===========================BODY==========================*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color:rgb(59, 154, 231);
+}
+
+/*===========================HEADER==========================*/
+.header{
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+/*===========================MEIO==========================*/
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 253, 253);
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+    
+}
+
+.cardGerarTabuada{
+    display: flex;
+    height: 20%;
+}
+
+.cardGerarNumeroTabuada{
+    background-color: tomato;
+    height: 80%;
+}
+
+
+.NumTab{
+    font-weight: 900;
+}
+
+.but{
+    height: 60%;
+    margin: 3px;
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+/*===========================FOOTER==========================*/
+.footer{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}

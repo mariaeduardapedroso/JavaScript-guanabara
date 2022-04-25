@@ -1,0 +1,8 @@
+FUNÇÃO : você comprar leite pra sua mae
+chamada -> mae
+paramtro -> dinheiro e nome mercearia
+ação -> compra do laite
+retorno -> leite 
+
+FUNÇÕES ações executadas assim que são chamadas ou ativadas por algo
+

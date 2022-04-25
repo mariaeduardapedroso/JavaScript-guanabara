@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+<style>
+    body{/*ESTILO*/
+        background-color: rgb(141, 141, 194);/*CLICAR NO QUADRADO E ESCOLHER COR*/
+    }
+</style>
+</head>
+<body>
+    <p>Olá mundo ;)</p>
+    <script>/*AONDE ENTRA JS*/
+    var n1 = window.prompt('digite um numero') /*receber oq pegamos*/
+   //prompt retorna string
+   n1 = number(n1)//tipo parse int
+    var n2 = window.prompt('digite um outro numero')//converter de string pra int
+    n2=parseInt(n2)
+    //+ para adição e concatenação
+    //number o js se vira com oq ele vai ter
+    var soma = n1 + n2;
+    window.alert('soma' + soma)//colocar valor nome no alerta
+    </script>
+</body>
+</html>

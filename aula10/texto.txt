@@ -1,0 +1,6 @@
+funções 
+algo que vaiacontecer se um evento ocorrer
+
+function ação(parametros){
+    bloco
+}

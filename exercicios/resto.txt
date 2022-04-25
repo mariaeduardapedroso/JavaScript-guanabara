@@ -1,0 +1,14 @@
+try {
+
+}
+
+catch()
+
+errado, ele é pra lidar com exessão que vc não sabe oq vai acontecer
+rafael usou if e trow
+
+catch se der erro ela vai pro catch e trata erro 
+try oq acontece 
+
+não é legal mandar mensagem de erro direto pro usuario
+o certo é inserir uma mensagem amigavel

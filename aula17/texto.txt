@@ -1,0 +1,19 @@
+estudar após isso
+
+-funções
+-objetos
+-modularização
+-RegEX
+-JSON
+-AJAX
+-NodeJS
+
+objetos
+
+array é heterogeneo e objeto
+mas fica preso em casinhas
+
+objetos
+{}
+let amigo = {nome:'josé' ,sexo:'m' ,peso:85.4 ,engordar(p){} }
+ao inves de casinhas tem nome na casa

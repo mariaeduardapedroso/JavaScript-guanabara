@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ola</title>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>resultado sai aqui</p>
+    <p name="sla">Aprendendo a usar <strong>DOM</strong> em Javascript</p>
+    <div id="msg">clique em mim</div>
+<script>
+//window.document.write('ola mundo')
+//window.document.write(window.navigator.appName)
+//window.document.write(window.document.URL)
+var p1 = window.document.getElementsByTagName('p')[0] //primeiro paragrafo
+window.document.write('esta escrito assim: '+p1.innerText)
+p1.style.color = 'blue'
+var d = window.document.getElementById('msg')
+d.style.background = 'red'
+d.innerText = 'mudança'
+var e = window.document.getElementsByName('sla')
+
+var f = window.document.querySelector('div#msg')//sintax do css
+f.style.color = 'orange'
+</script>
+</body>
+</html>

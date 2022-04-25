@@ -1,0 +1,7 @@
+var simples
+armazena um valor por vez
+
+var composta
+armazena mais de um valor por vez
+
+let num = [v1,v2,v3,...,vn]

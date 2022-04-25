@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         #area{
+            background-color: green;
+            color: black;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="area" onmouseover="entrar()" onmouseout="sair()"><!--EVENTOS FICA AQUI COM A FUNÇÃO-->
+        interaja...
+    </div>
+
+    <script>
+        //mouseenter
+        //mousemove
+        //click
+        //mouseout
+        //mouseover
+        //JAVASCRIPT DOM EVENT LIST
+        var area = window.document.getElementById('area')
+        area.addEventListener('click',clicar) //JEITO DE ESCUTAR O EVENTO JÁ NO JS E NÃO DEIXAR SEU HTML CARREGADO
+        function clicar() {
+            area.innerText = 'clicou'//acontece so quando clica
+            area.style.background = 'red'
+        }
+        function entrar() {
+            area.innerText = 'entrou'
+            area.style.background = 'green'
+        }
+        function sair() {
+            area.innerText = 'saiu'
+            area.style.background = 'green'
+        }
+    </script>
+</body>
+</html>

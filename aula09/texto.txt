@@ -1,0 +1,26 @@
+dom 
+document object model
+
+ARVORE DOM
+
+raiz window
+-location
+-document documento atual -html (head, body)
+-hitory de onde voce veio pra onde vai 
+
+selecionando elementos
+getElementsByTagName()
+por ID 
+getElementsById()
+por nome
+getElementsByName()
+por classe 
+getElementsByClassName()
+por seletor
+faz por elementos css
+
+document.write(oqQuer.innerHTML) FAZ PEGAR TUDO QUE TEM JUNTO COM O TEXTO NO QUESITO html
+innerText pega só texto
+
+arvore dom é pais e filhos
+

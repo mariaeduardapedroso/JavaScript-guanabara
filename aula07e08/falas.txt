@@ -1,0 +1,43 @@
+operadores aritmeticos 
+
++ mais
+- menos
+* multiplicar
+/ dividir
+% modulo
+** elevado
+> 5+2
+7
+> 9%2
+1
+> 9/2
+4.5
+> 5+3/2
+6.5
+() muda a ordem de precedencia
+= atribuição
+x+=11 x recebe x+11
+x++ incremento pos
+x-- decremento pos
+++x pre incremento
+--x pre decremento
+
+
+< menor que
+> maior que
+>= maior ou igual
+<= menor ou igual
+== igual
+!= diferente
+=== igual comparando tipo
+retorna valor boolean
+
+! negação
+&& conjução
+|| disjunção
+
+OPERADOR TERNARIO
+? : 
+um if minimizado
+condição ? oq acontece se true: oq acontece se false
+teste ? true : false
